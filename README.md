@@ -61,13 +61,12 @@ The project has the following folder structure:
 ```
 .
 ├── worker.py
-├── tasks.py
 ├── README.md
 └── requirements.txt
 
 ```
 
-  `tasks.py`: Contains the Celery task definition.
+  `worker.py`: Contains the Celery task definition.
   `README.md`: Provides instructions and information about the project.
   `requirements`.txt: Lists the dependencies required by the project.
 
