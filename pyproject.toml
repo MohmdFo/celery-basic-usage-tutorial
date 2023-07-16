@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "celery-pure-python"
+version = "0.1.0"
+description = ""
+authors = ["mohmdfo <mohammad.fotouhi80@gmail.com>"]
+readme = "README.md"
+packages = [{include = "celery_pure_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+celery = "^5.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
