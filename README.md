@@ -60,7 +60,7 @@ The project has the following folder structure:
 
 ```
 .
-├── celery.py
+├── worker.py
 ├── tasks.py
 ├── README.md
 └── requirements.txt
